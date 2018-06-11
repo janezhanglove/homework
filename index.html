@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>知否博客--首页</title>
+    <link rel="stylesheet" href="lib/css/boostrap.css">
+    <script src="lib/js/boostrap.js"></script>
+    <style>
+        .container {
+            width: 100%;
+            background-color: #5e5e5e;
+            height: 3000px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+
+
+    <!--首先是顶部导航栏-->
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <!--网站的logo,这里用文字代替-->
+        <div class="navbar-header ">
+            <a class="navbar-brand" href="index.html">知否博客</a>
+        </div>
+        <div>
+            <!--导航栏的分类导航内容-->
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="index.html">首页</a></li>
+                <li><a href="#">博客推荐</a></li>
+                <li><a href="#">博客收藏</a></li>
+                <li><a href="#">作者简介</a></li>
+            </ul>
+
+            <!--最右面的登录注册按钮-->
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="#">登录</a></li>
+                <li><a href="#">注册</a></li>
+                <li><a href="#">&nbsp;</a></li>
+            </ul>
+
+            <!--中间靠右的搜索框-->
+            <ul class="nav navbar-nav navbar-right">
+                <form class="navbar-form navbar-left" role="search">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Search">
+                    </div>
+                    <button type="submit" class="btn btn-default">搜索</button>
+                </form>
+                <li><a href="#">&nbsp;</a></li>
+            </ul>
+        </div>
+    </nav>
+
+
+    <br>
+    <br>
+    <br>
+
+    <!--然后利用boostrap的栅格布局将页面主体部分划分为三列,每一列分别占2/12,7/12,3/12-->
+    <div class="main-container">
+        <div class="row" style="height: 300px; background-color:#fff;">
+            <!--最左面这一列是分类浏览导航-->
+            <div class="col-lg-2">
+                <div style="width: 90%;">
+                    <span class="label label-info">博客分类浏览</span>
+                    <p></p>
+                    <ul class="nav nav-pills nav-stacked">
+                        <li class="active"><a href="#">Home</a></li>
+                        <li><a href="#">JavaScript</a></li>
+                        <li><a href="#">CSS</a></li>
+                        <li><a href="#">boostrap</a></li>
+                        <li><a href="#">jQuery</a></li>
+                        <li><a href="#">HTML5</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <!--中间部分是页面主要内容展示的地方,根据不同页面有所不同-->
+            <div class="col-lg-7">
+                <br>
+                <br>
+                <!--每一个panel为一条文章记录-->
+                <div class="panel panel-primary">
+                    <div class="panel-heading">
+                        后代选择器和子元素选择器（理解）
+                    </div>
+                    <div class="panel-body">
+                        1.什么是交集选择器？ 我们首先了解一下什么是交集 以前学数学的时候学过交集，其实这里也是一样 两个集合有重复的部分就叫做交集 作用：给所有选择器选中的标签中，相交的那部分标签设置属性 格式： 选择器1选择器2{ 属性：值; } 注意点： 1.选择器和选择器之间没有任何连接符号 来看一个案例： 先找 ...
+                    </div>
+                    <div class="panel-footer" style="text-align: right">
+                        用户12138 发布于 2018-06-10 22:16 评论(0)阅读(2)
+                    </div>
+                </div>
+                <div class="panel panel-primary">
+                    <div class="panel-heading">
+                        后代选择器和子元素选择器（理解）
+                    </div>
+                    <div class="panel-body">
+                        1.什么是交集选择器？ 我们首先了解一下什么是交集 以前学数学的时候学过交集，其实这里也是一样 两个集合有重复的部分就叫做交集 作用：给所有选择器选中的标签中，相交的那部分标签设置属性 格式： 选择器1选择器2{ 属性：值; } 注意点： 1.选择器和选择器之间没有任何连接符号 来看一个案例： 先找 ...
+                    </div>
+                    <div class="panel-footer" style="text-align: right">
+                        用户12138 发布于 2018-06-10 22:16 评论(0)阅读(2)
+                    </div>
+                </div>
+                <div class="panel panel-primary">
+                    <div class="panel-heading">
+                        后代选择器和子元素选择器（理解）
+                    </div>
+                    <div class="panel-body">
+                        1.什么是交集选择器？ 我们首先了解一下什么是交集 以前学数学的时候学过交集，其实这里也是一样 两个集合有重复的部分就叫做交集 作用：给所有选择器选中的标签中，相交的那部分标签设置属性 格式： 选择器1选择器2{ 属性：值; } 注意点： 1.选择器和选择器之间没有任何连接符号 来看一个案例： 先找 ...
+                    </div>
+                    <div class="panel-footer" style="text-align: right">
+                        用户12138 发布于 2018-06-10 22:16 评论(0)阅读(2)
+                    </div>
+                </div>
+                <div class="panel panel-primary">
+                    <div class="panel-heading">
+                        后代选择器和子元素选择器（理解）
+                    </div>
+                    <div class="panel-body">
+                        1.什么是交集选择器？ 我们首先了解一下什么是交集 以前学数学的时候学过交集，其实这里也是一样 两个集合有重复的部分就叫做交集 作用：给所有选择器选中的标签中，相交的那部分标签设置属性 格式： 选择器1选择器2{ 属性：值; } 注意点： 1.选择器和选择器之间没有任何连接符号 来看一个案例： 先找 ...
+                    </div>
+                    <div class="panel-footer" style="text-align: right">
+                        用户12138 发布于 2018-06-10 22:16 评论(0)阅读(2)
+                    </div>
+                </div>
+                <div class="panel panel-primary">
+                    <div class="panel-heading">
+                        后代选择器和子元素选择器（理解）
+                    </div>
+                    <div class="panel-body">
+                        1.什么是交集选择器？ 我们首先了解一下什么是交集 以前学数学的时候学过交集，其实这里也是一样 两个集合有重复的部分就叫做交集 作用：给所有选择器选中的标签中，相交的那部分标签设置属性 格式： 选择器1选择器2{ 属性：值; } 注意点： 1.选择器和选择器之间没有任何连接符号 来看一个案例： 先找 ...
+                    </div>
+                    <div class="panel-footer" style="text-align: right">
+                        用户12138 发布于 2018-06-10 22:16 评论(0)阅读(2)
+                    </div>
+                </div>
+                <div class="panel panel-primary">
+                    <div class="panel-heading">
+                        后代选择器和子元素选择器（理解）
+                    </div>
+                    <div class="panel-body">
+                        1.什么是交集选择器？ 我们首先了解一下什么是交集 以前学数学的时候学过交集，其实这里也是一样 两个集合有重复的部分就叫做交集 作用：给所有选择器选中的标签中，相交的那部分标签设置属性 格式： 选择器1选择器2{ 属性：值; } 注意点： 1.选择器和选择器之间没有任何连接符号 来看一个案例： 先找 ...
+                    </div>
+                    <div class="panel-footer" style="text-align: right">
+                        用户12138 发布于 2018-06-10 22:16 评论(0)阅读(2)
+                    </div>
+                </div>
+                <div class="panel panel-primary">
+                    <div class="panel-heading">
+                        后代选择器和子元素选择器（理解）
+                    </div>
+                    <div class="panel-body">
+                        1.什么是交集选择器？ 我们首先了解一下什么是交集 以前学数学的时候学过交集，其实这里也是一样 两个集合有重复的部分就叫做交集 作用：给所有选择器选中的标签中，相交的那部分标签设置属性 格式： 选择器1选择器2{ 属性：值; } 注意点： 1.选择器和选择器之间没有任何连接符号 来看一个案例： 先找 ...
+                    </div>
+                    <div class="panel-footer" style="text-align: right">
+                        用户12138 发布于 2018-06-10 22:16 评论(0)阅读(2)
+                    </div>
+                </div>
+                <div class="panel panel-primary">
+                    <div class="panel-heading">
+                        后代选择器和子元素选择器（理解）
+                    </div>
+                    <div class="panel-body">
+                        1.什么是交集选择器？ 我们首先了解一下什么是交集 以前学数学的时候学过交集，其实这里也是一样 两个集合有重复的部分就叫做交集 作用：给所有选择器选中的标签中，相交的那部分标签设置属性 格式： 选择器1选择器2{ 属性：值; } 注意点： 1.选择器和选择器之间没有任何连接符号 来看一个案例： 先找 ...
+                    </div>
+                    <div class="panel-footer" style="text-align: right">
+                        用户12138 发布于 2018-06-10 22:16 评论(0)阅读(2)
+                    </div>
+                </div>
+                <div class="panel panel-primary">
+                    <div class="panel-heading">
+                        后代选择器和子元素选择器（理解）
+                    </div>
+                    <div class="panel-body">
+                        1.什么是交集选择器？ 我们首先了解一下什么是交集 以前学数学的时候学过交集，其实这里也是一样 两个集合有重复的部分就叫做交集 作用：给所有选择器选中的标签中，相交的那部分标签设置属性 格式： 选择器1选择器2{ 属性：值; } 注意点： 1.选择器和选择器之间没有任何连接符号 来看一个案例： 先找 ...
+                    </div>
+                    <div class="panel-footer" style="text-align: right">
+                        用户12138 发布于 2018-06-10 22:16 评论(0)阅读(2)
+                    </div>
+                </div>
+                <div class="panel panel-primary">
+                    <div class="panel-heading">
+                        后代选择器和子元素选择器（理解）
+                    </div>
+                    <div class="panel-body">
+                        1.什么是交集选择器？ 我们首先了解一下什么是交集 以前学数学的时候学过交集，其实这里也是一样 两个集合有重复的部分就叫做交集 作用：给所有选择器选中的标签中，相交的那部分标签设置属性 格式： 选择器1选择器2{ 属性：值; } 注意点： 1.选择器和选择器之间没有任何连接符号 来看一个案例： 先找 ...
+                    </div>
+                    <div class="panel-footer" style="text-align: right">
+                        用户12138 发布于 2018-06-10 22:16 评论(0)阅读(2)
+                    </div>
+                </div>
+            </div>
+
+            <!--最右边一列用来放置广告栏还有一些其他的信息-->
+            <div class="col-lg-3">
+                <!--百度搜索-->
+                <div id="google_search" class="side_search">
+                    <input id="google_search_q" class="search_input" onkeydown="return baidusearch(event);" type="text"><input value="Google" class="search_btn" onclick="return google_search();" type="button">
+                </div>
+                <!--广告栏位-->
+                <div class="ad">
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
